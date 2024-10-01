@@ -1,6 +1,6 @@
-from transacao.deposito import Deposito
-from transacao.saque import Saque
-from utils.filtro import filtrar_cliente, recuperar_conta_cliente
+from .deposito import Deposito
+from .saque import Saque
+from ..utils.filtro import filtrar_cliente, recuperar_conta_cliente
 
 def depositar(clientes):
     cpf = input("Informe o CPF do cliente: ")

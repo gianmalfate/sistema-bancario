@@ -1,7 +1,7 @@
 import textwrap
-from cliente.pessoa_fisica import PessoaFisica
-from conta.conta_corrente import ContaCorrente
-from utils.filtro import filtrar_cliente, filtrar_contas_por_cpf
+from ..cliente.pessoa_fisica import PessoaFisica
+from ..conta.conta_corrente import ContaCorrente
+from .filtro import filtrar_cliente, filtrar_contas_por_cpf
 
 def criar_cliente(clientes):
     cpf = input("Informe o CPF (somente número): ")

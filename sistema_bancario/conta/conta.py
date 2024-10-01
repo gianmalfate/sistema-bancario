@@ -1,4 +1,4 @@
-from conta.historico import Historico
+from .historico import Historico
 
 class Conta:
     def __init__(self, numero, cliente):
